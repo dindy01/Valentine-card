@@ -1,0 +1,47 @@
+/* Stile per la pagina principale */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: pink;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+#noButton {
+    background-color: lightcoral;
+    border-radius: 10px;
+}
+
+/* Stile per la cartolina */
+.card {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
